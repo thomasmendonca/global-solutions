@@ -142,14 +142,13 @@ body{
 .nav-bar-item-mobile a:active{
     color: var(--dark-blue);
 }
-.main-content{
+.main-content{  
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 6% ;
     margin-right: 6%;
     flex-grow: 1;
-    
 }
 .brand-logo-tittle{
     height: auto;
