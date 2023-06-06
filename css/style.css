@@ -126,6 +126,7 @@ body{
     justify-content: space-between;
     line-height: 2.5rem;
     position: fixed;
+    border-bottom: 0.15rem solid var(--dark-blue);
 }
 .nav-bar-item-mobile a{
     padding-left: 5%;
