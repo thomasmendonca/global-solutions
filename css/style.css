@@ -194,15 +194,19 @@ body{
     text-decoration: none;
     color: var(--common-light);
     font-size: large;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
 }
 .button-default:hover{
     background-color: var(--transparent-color);
-    font-weight: 500;
-    
+    font-weight: 500;  
 }
 .nav-bar-menu-desktop{
     display: none;
-    
 }
 .footer{
     display: none;
@@ -215,7 +219,6 @@ body{
     .main-content-title{
         color: var(--common-light);
         font-size: x-large;
-        text-align: center;
         font-weight: 700;
         margin-bottom: 1rem;
     }
@@ -223,7 +226,7 @@ body{
         font-weight: 600;
     }
     .text-default{
-        font-weight: 500;
+        font-weight: 300;
         text-align: justify;
         white-space: wrap;
         line-height: 1.5rem;
@@ -247,14 +250,10 @@ body{
         margin-bottom: 1rem;
     }
     .main-content-subtitle{
-        font-weight: 600;
-        
+        font-weight: 600; 
     }
-    
     .text-default{
-        color: var(--common-grey);
-        font-weight: 500;
-        text-align: justify;
+        font-weight: 300;
         white-space: wrap;
         line-height: 1.7rem;
     }
@@ -293,6 +292,7 @@ body{
         color: var(--common-light);
         text-transform: uppercase;
         font-size: small;
+        white-space: nowrap;
     }
     .menu{
         display: none;
@@ -301,19 +301,21 @@ body{
         color: var(--light-green);
         font-weight: 500;
         border-bottom: 0.1rem solid var(--light-green);
-        
-        
     }
     .text-default{
-        color: var(--common-grey);
-        font-weight: 500;
+        font-weight: 300;
         text-align: center;
         white-space: wrap;
         line-height: 1.5rem;
-        
     }
     .brand-logo-tittle{
         width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .brand-logo-tittle{
+        width: 40%;
     }
     .footer{
         display: flex;
@@ -335,13 +337,6 @@ body{
     .footer-tittle{
         font-size: x-small;
         font-weight: 700;
-    }
-
-}
-
-@media (min-width: 1024px) {
-    .brand-logo-tittle{
-        width: 40%;
     }
 
 }
