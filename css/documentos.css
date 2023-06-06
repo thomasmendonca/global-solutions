@@ -1,0 +1,350 @@
+.header-bar-alternative{
+    width: 100vw;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding:0;
+    
+}
+.nav-bar-alternative{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 0.8rem 0.2rem;
+    
+}
+.logo-menu-bar-alternative{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+.nav-bar-items-desktop-alternative{
+    display: none;
+}
+.logo-menu-alternative{
+    color: var(--common-light);
+    font-weight: 300;
+    width: auto;
+    cursor: pointer;
+    
+}
+.logo-menu-alternative:hover{
+    color: var(--dark-blue);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.main-content-contato{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+    flex-grow: 1;
+}
+.brand-logo-tittle-alt{
+    width: 80%;
+    
+}
+.main-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--common-light);
+    padding: 2% 4%;
+    
+    
+}
+.main-content-title-dark{
+    color: var(--dark-blue);
+    line-height: 2rem;
+    font-size: large;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.main-content-subtitle-dark{
+    color: var(--common-dark);
+    font-size: medium;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+    text-align: center;
+}
+
+.form-contato{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.form-contato label{
+    font-weight: 400;
+    text-align: justify;
+    width: 80%;
+    
+}
+.form-default{
+    margin-bottom: 1rem;
+    width: 80%;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--common-grey);
+    font-size: medium;
+    font-weight: 100;
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito', sans-serif;;
+    color: var(--common-grey);
+    font-weight: 300;
+}
+.form-default-small{
+    margin-bottom: 1rem;
+    width: 60%;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--common-grey);
+    font-size: medium;
+    font-weight: 100;
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito', sans-serif;;
+    color: var(--common-grey);
+    font-weight: 300;
+}
+.form-default-large{
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 10rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--common-grey);
+    font-size: medium;
+    font-weight: 100;
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito', sans-serif;;
+    color: var(--common-grey);
+    font-weight: 300;
+}
+
+.genre-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+    width: 100%;
+}
+.genre{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.genre label{
+    color: var(--common-dark);
+    font-weight: 400;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+.form-button{
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: var(--dark-blue);
+    border: 0.1rem solid var(--common-grey);
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    width: 8rem;
+    height: 3rem;
+    text-decoration: none;
+    color: var(--common-light);
+    font-size: large;
+    display: inline-block;
+    
+}
+
+.form-button a{
+    text-decoration: none;
+    color: var(--common-light);
+    font-size: large;
+    text-align: center;
+    
+}
+.form-button:hover{
+    opacity: 95%;
+}
+.form-button-back{
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: var(--light-red);
+    border: 0.1rem solid var(--common-grey);
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    width: 8rem;
+    height: 3rem;
+    text-decoration: none;
+    color: var(--common-light);
+    font-size: large;
+    display: block;
+}
+.form-button-back a{
+    text-decoration: none;
+    color: var(--common-light);
+    font-size: large;
+    vertical-align: middle;
+}
+.cidade-estado{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cidade{
+    display: flex;
+    flex-direction: column;
+    
+}
+.estado{
+    display: flex;
+    flex-direction: column;
+   
+}
+@media (min-width:425px) {
+    .brand-logo-tittle-alt{
+        width: 70%;
+    }
+    .form-contato{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        
+    }
+}
+
+
+@media (min-width: 768px){
+    .logo-menu-bar-alternative{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .nav-bar-menu-desktop-alternative{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .nav-bar-items-desktop-alternative{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        justify-content: space-between;
+        gap: 2.5rem;
+        box-sizing: border-box;
+    }
+    .nav-bar-item-desktop-alternative{
+        display: flex;
+        text-align: center;
+        text-decoration: none;
+        
+    }
+    .nav-bar-item-desktop-alternative a{
+        text-align: center;
+        text-decoration: none;
+        color: var(--common-light);
+        text-transform: uppercase;
+        font-size: small;
+        
+    }
+    .menu{
+        display: none;
+    }
+    .nav-bar-item-desktop-alternative a:hover{
+        color: var(--light-green);
+        font-weight: 500;
+        border-bottom: 0.1rem solid var(--light-green);
+    }
+    .brand-logo-tittle-alt{
+        width: 80%;
+    }
+    .form-contato{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        
+    }
+    .main-content-contato{
+        margin-top: 8%;
+    }
+    .main-contato{
+        width: 60%;
+        height: auto;
+        border: 0.1rem solid var(--common-grey);
+        box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.1);
+        border-radius: 0.3rem;
+        padding: 2%;
+    }
+
+}
+@media (min-width: 1024px){
+    .brand-logo-tittle-alt{
+        width: 20%;
+    }
+    .main-content-contato{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0.8rem;
+        
+    }
+    .main-contato{
+        width: 100%;
+        height: auto;
+        padding: 1%;
+    }
+    
+    .form-default{
+       height: 2rem;
+       border-radius: 0;
+       background-color: transparent;
+       border: 0;
+       border-bottom: 0.1rem solid var(--common-grey);
+       box-shadow: 0 0 0  rgba(0, 0, 0, 0.0);
+       width: 50%;
+    }
+    .form-contato label{
+        font-weight: 400;
+        text-align: justify;
+        width: 50%;
+        
+    }
+    .form-default-small{
+        height: 2.2rem;
+        border-radius: 0;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 0.1rem solid var(--common-grey);
+        box-shadow: 0 0 0  rgba(0, 0, 0, 0.0);
+        width: 100%;
+    }
+    .form-default-large{
+        width: 50%;
+    }
+    .cidade-estado{
+        justify-content: center;
+        width: 50%;
+        
+    }
+    .cidade{
+        width: 100%;
+    }
+    .estado{
+        width: 80%;
+    }
+    
+}
