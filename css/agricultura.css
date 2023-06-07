@@ -81,7 +81,15 @@
     color: var(--light-green);
     font-weight: 500;
 }
-
+.img-agricultura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom:1% ;
+   }
 @media (min-width: 768px) {
     .background-agricultura{
         padding: 2% 8%;
@@ -105,6 +113,8 @@
    }
    #praticas{
     width: 45%;
+    display: flex;
+    
    }
    #praticas article{
     text-align: justify;
@@ -114,5 +124,11 @@
    }
    #eficiencia article{
     text-align: justify;
+   }
+   .img-agricultura{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
    }
 }
