@@ -91,10 +91,8 @@
 @media (min-width: 1024px) {
    .background-agricultura{
     justify-content: space-between;
-    flex-direction: row;
-    gap: 1rem;
+    flex-direction: row;    
     flex-wrap: wrap;
-    
    }
    #conceitos{
     width: 100%;
@@ -103,12 +101,18 @@
     align-items: center;
    }
    #conceitos article{
-    width: 80%;
+    width: 90%;
    }
    #praticas{
     width: 45%;
    }
+   #praticas article{
+    text-align: justify;
+   }
    #eficiencia{
-    width: 50%;
+    width: 45%;
+   }
+   #eficiencia article{
+    text-align: justify;
    }
 }
